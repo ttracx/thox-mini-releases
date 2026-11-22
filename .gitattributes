@@ -1,0 +1,5 @@
+# The signatures cover exact bytes: never convert line endings in these files.
+*/release.json -text
+*/release.json.sig -text
+*/packages.json -text
+*/packages.json.sig -text

@@ -8,6 +8,8 @@
 - Blockers: release feed is UNSIGNED — no release-feed.json.sig exists. Signing is pending the
   holder of Ed25519 key `thox-release-2026-11`; no private key or signing tool was found in the
   workspace or on KnightHub in the checked locations. Consumers must not trust the feed as signed.
+- Bucket manifest: updated 2026-11-22 - manifest.json now records release_feed_repo and
+  release_feed URLs for this repo; artifacts still [] (nothing added).
 - Bucket: `Thox-ai/thox-device-thoxmini` is private (internal only), placeholders only at creation
   (README.md, manifest.json with artifacts: [], .keep files). Registering this feed's repo URL
   in the bucket manifest is a recorded next step, not yet done.

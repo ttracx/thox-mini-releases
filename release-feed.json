@@ -1,0 +1,32 @@
+{
+  "schema": "thoxmini-release-feed/1",
+  "channel": "stable",
+  "sequence": 1,
+  "published": "2026-11-22",
+  "items": [
+    {
+      "kind": "model",
+      "id": "thoxmini-3b",
+      "version": "1.0.0",
+      "title": "ThoxMini 3B",
+      "host": "any",
+      "url": "https://huggingface.co/Thox-ai/ThoxMini-3B/resolve/56c4440e687af5e3acdca7a2291a6f5b5a92da36/thoxmini-3b-Q4_K_M.gguf",
+      "bytes": 2019373952,
+      "sha256": "3bcfb6e420667731de4f31845fde0e78557e28db8e4ed7ea897832de30776dfa",
+      "bucket": "Thox-ai/thox-device-thoxmini",
+      "notes": "The default assistant on every ThoxKey. Provisioning artifacts (images, firmware, software) for ThoxMini will be registered from the private bucket Thox-ai/thox-device-thoxmini as they are published."
+    },
+    {
+      "kind": "model",
+      "id": "thoxmini-phi4mini",
+      "version": "1.0.0",
+      "title": "ThoxMini Phi-4 Mini",
+      "host": "any",
+      "url": "https://huggingface.co/Thox-ai/ThoxMini-Phi4Mini/resolve/7cb77b5709de2ef98320b5639a0406fa33d96bed/ThoxMini-Phi4Mini.Q4_K_M.gguf",
+      "bytes": 2493840576,
+      "sha256": "a19e96061d84ca2014d4de98d0c0397e6df4db8f73c2163afa6bcb90d15afedf",
+      "bucket": "Thox-ai/thox-device-thoxmini",
+      "notes": "Compact general assistant. Provisioning artifacts (images, firmware, software) for ThoxMini will be registered from the private bucket Thox-ai/thox-device-thoxmini as they are published."
+    }
+  ]
+}
